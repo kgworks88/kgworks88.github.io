@@ -1,0 +1,32 @@
+body{background-color:black;font-family:Verdana,Arial,sans-serif;text-align:center;}
+h1{color:white;font-size:50px;font-weight:normal}
+h2{color:white;font-size:42px;font-weight:300}
+p{color:#808080;font-size:21px}
+a{color:#7FFFD4;font-size:16px;}
+img{display:block;margin:2rem auto 0}
+video{
+  display:block;
+  margin:2rem auto 0
+}
+.container-fluid {
+  width: 100%;
+  margin:auto;
+}
+.d-flex-row-center{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+.d-flex-column-center{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding-top:0.5rem;
+}
+.footer{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  padding-right:2rem;
+}
