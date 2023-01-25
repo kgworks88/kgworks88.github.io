@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 body {
-  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
+  background-image: url("../../ca_davies_burgers/images/htmlcss1-img_foodlogo.png");
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -50,7 +50,7 @@ nav a {
 /* Content Header */
 
 .header {
-  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+  background-image: url("../../ca_davies_burgers/images/htmlcss1-img_burgerphoto.jpg");
   background-position: center;
   background-size: cover;
   height:320px;

@@ -69,7 +69,7 @@ p {
 }
 
 .image {
-  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg');
+  background-image: url('../../ca_article/images/soccer.jpg');
   background-size: cover;
   background-position: center;
   height: 300px;
