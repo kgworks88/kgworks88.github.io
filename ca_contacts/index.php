@@ -129,7 +129,7 @@
                             ))}
                             </table>
                         </div>
-                        <ContactForm />
+                        
                     </React.Fragment>
                 );
             }
