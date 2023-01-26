@@ -35,10 +35,13 @@ class Contact extends React.Component {
     const contactInfo = (
       <ul>
           <li>
-            client@example.com
+            Kate Golyashova
           </li>
           <li>
-            555.555.5555
+            kate.golyashova@gmail.com
+          </li>
+          <li>
+            ph.: 022 155 00 34
           </li>
         </ul>
     );
