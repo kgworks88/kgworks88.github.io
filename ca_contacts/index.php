@@ -38,7 +38,7 @@
 
                 axios({
                     method: 'post',
-                    url: '/kgworks/ca_contacts/api/contacts.php',
+                    url: '/ca_contacts/api/contacts.php',
                     data: formData,
                     config: { headers: {'Content-Type': 'multipart/form-data' }}
                 })
@@ -96,7 +96,7 @@
             }
 
             componentDidMount() {
-                const url = '/kgworks/ca_contacts/api/contacts.php'
+                const url = '/ca_contacts/api/contacts.php'
                 axios.get(url).then(response => response.data)
                 .then((data) => {
                 this.setState({ contacts: data })
