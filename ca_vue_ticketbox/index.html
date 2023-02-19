@@ -35,7 +35,7 @@
       <div class="form-row">
         <div class="form-field">
           <label for="ticket-quantity">Ticket Quantity</label>
-          <select id="ticket-quantity">
+          <select id="ticket-quantity" v-model="ticketQuantity">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -45,11 +45,11 @@
         <div class="form-field">
           <legend>Ticket Type</legend>
           <div>
-            <input type="radio" id="general" value="general">
+            <input type="radio" id="general" value="general" v-model="ticketType">
             <label for="general">General Admission</label>
           </div>
           <div>
-            <input type="radio" id="vip" value="vip">
+            <input type="radio" id="vip" value="vip" v-model="ticketType">
             <label for="vip">VIP</label>
           </div>
         </div>
@@ -73,7 +73,7 @@
       </div>
       <div class="form-row vertical">
         <label for="requests">Special Requests</label>
-        <textarea id="requests" ></textarea>
+        <textarea id="requests" v-model="specialRequests"></textarea>
       </div>
       <div class="form-row vertical agreement checkbox">
         <fieldset>
