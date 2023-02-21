@@ -54,5 +54,16 @@ const app = new Vue({
         this.ticketType = 'vip';
       }
     }
-  }
+  },
+  methods:{
+    resetFields: function(){
+      this.firstName = '';
+      this.lastName = '';
+      this.email = '';
+      this.ticketQuantity = 1;
+      this.ticketType = 'general';
+      this.referrals = [];
+      this.specialRequests = '';
+      this.purchaseAgreementSigned = false;
+    }
 });
