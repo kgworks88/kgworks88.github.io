@@ -66,4 +66,5 @@ const app = new Vue({
       this.specialRequests = '';
       this.purchaseAgreementSigned = false;
     }
+  }
 });

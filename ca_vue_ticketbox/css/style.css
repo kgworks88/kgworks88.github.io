@@ -147,3 +147,26 @@ button.reset {
 button.reset:hover {
   background-color: #ea2e16;
 }
+
+/* Developer Pane */
+
+#developer-pane {
+  border: 1px solid #979797;
+  margin: 2rem 20%;
+  background-color: #d1fdda;
+}
+
+#developer-pane > * {
+  padding: 1rem;
+  font-weight: 1.2rem;
+}
+
+#developer-pane h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#developer-pane em {
+  font-weight: bold;
+}
