@@ -25,6 +25,7 @@
       <div><em>Special Requests</em>: <span>{{ specialRequests }}</span></div>
       <div><em>Special Requests</em>: <span>{{ ticketType }}</span></div> 
       <div><em>Referrals</em>: <span>{{ referrals }}</span></div>
+      <div><em>Purchase Agreement Signed</em>: <span>{{ purchaseAgreementSigned }}</span></div>
     </div>
     <form>
       <div class="form-row">
@@ -90,7 +91,7 @@
         <fieldset>
           <legend>Purchase Agreement</legend>
           <p>I, {{ fullName }}, wish to buy {{ ticketDescription }}. I understand that all ticket sales are final.</p>
-          <input type="checkbox" name="agreement" id="agree">
+          <input type="checkbox" name="agreement" id="agree" v-model="purchaseAgreementSigned">
           <label for="agree">I Agree</label>
         </fieldset>
       </div>
