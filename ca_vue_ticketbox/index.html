@@ -27,7 +27,7 @@
       <div><em>Referrals</em>: <span>{{ referrals }}</span></div>
       <div><em>Purchase Agreement Signed</em>: <span>{{ purchaseAgreementSigned }}</span></div>
     </div>
-    <form>
+    <form @reset="resetFields" @submit="submitForm">
       <div class="form-row">
         <div class="form-field">
           <label for="first-name">First Name</label>

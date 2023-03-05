@@ -65,6 +65,9 @@ const app = new Vue({
       this.referrals = [];
       this.specialRequests = '';
       this.purchaseAgreementSigned = false;
+    },
+    submitForm: function() {
+      // Do something with form data
     }
   }
 });
