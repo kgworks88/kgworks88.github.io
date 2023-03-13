@@ -27,27 +27,27 @@
       <div><em>Referrals</em>: <span>{{ referrals }}</span></div>
       <div><em>Purchase Agreement Signed</em>: <span>{{ purchaseAgreementSigned }}</span></div>
     </div>
-    <form @reset="resetFields" @submit="submitForm">
+    <form @reset="resetFields" @submit.prevent="submitForm">
       <div class="form-row">
         <div class="form-field">
           <label for="first-name">First Name</label>
-          <input type="text" id="first-name" v-model="firstName" />
+          <input type="text" id="first-name" v-model.trim="firstName" />
         </div>
         <div class="form-field">
           <label for="last-name">Last Name</label>
-          <input type="text" id="last-name" v-model="lastName" />
+          <input type="text" id="last-name" v-model.trim="lastName" />
         </div>
       </div>
       <div class="form-row">
         <div class="form-field">
           <label for="email">Email</label>
-          <input type="text" id="email" v-model="email"/>
+          <input type="text" id="email" v-model.trim="email"/>
         </div>
       </div>
       <div class="form-row">
         <div class="form-field">
           <label for="ticket-quantity">Ticket Quantity</label>
-          <select id="ticket-quantity" v-model="ticketQuantity">
+          <select id="ticket-quantity" v-model.number="ticketQuantity">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -85,7 +85,7 @@
       </div>
       <div class="form-row vertical">
         <label for="requests">Special Requests</label>
-        <textarea id="requests" v-model="specialRequests"></textarea>
+        <textarea id="requests" v-modeltrim="specialRequests"></textarea>
       </div>
       <div class="form-row vertical agreement checkbox">
         <fieldset>
