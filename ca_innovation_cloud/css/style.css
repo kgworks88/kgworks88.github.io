@@ -6,16 +6,18 @@ html, body {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+
 }
 
 .container {
   margin: 0 auto;
   max-width: 940px; 
   padding: 0 10px;
+
 }
 
 .header {
-  background: url(../../ca_innovation-cloud/images/bg.jpg) no-repeat center center; 
+  background: url(../images/bg.jpg) no-repeat center center; 
   background-size: cover;
   height: 800px;
   text-align: center; 
@@ -97,7 +99,7 @@ body {
 }
 
 .jumbotron {
-  background: url(../../ca_innovation-cloud/images/jumbotron_bg.jpg) center center;
+  background: url(../images/jumbotron_bg.jpg) center center;
   background-size: cover;
   height: 600px; 
 }
