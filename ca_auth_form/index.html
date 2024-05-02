@@ -16,7 +16,7 @@
 			super(props);
 			this.state = {
 			password: 'swordfish',
-			authorized: true
+			authorized: false
 			};
 			this.authorize = this.authorize.bind(this);
 		}
@@ -33,6 +33,7 @@
 		render() {
 			const login = (
 			<form action="#" onSubmit={this.authorize}>
+				p><small>hint: swordfish</small></p>
 				<input 
 				type="password" 
 				placeholder="Password"
